@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main(void) {
   double c, f;
-  printf("Digite a temperatura em graus Fahrenheit.");
-  scanf("%d", &f);
-  c = 5*(f-32)/9.0;
-  printf("A temperatura em celsius e de: %f", c);
+  printf("Digite a temperatura em graus Celsius.");
+  scanf("%d", &c);
+  f = (9*c)/5 + 32;
+  printf("A temperatura em Fahrenheit é de: %f", f);
 }
